@@ -100,7 +100,7 @@ def load_data(filename):
   return df
 
 
-df = load_data('Data/output_file1000.csv')
+df = load_data('Data/FilteredData.csv')
 df= shuffle(df, random_state=42)
 df['R99'].fillna(0, inplace=True)
 
