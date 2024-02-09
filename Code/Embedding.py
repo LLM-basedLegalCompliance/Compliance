@@ -128,30 +128,30 @@ def third_approach():
         print(f"F1 Score: {metrics[3]}")
         print(classification_report(y_test, predictions))
 
-    from sklearn.tree import DecisionTreeClassifier
-    def multi_label_classification(X_train, X_test, y_train, y_test):
-        print("Multi-label classification")
-        # clf = OneVsRestClassifier(SVC())
-        # clf.fit(X_train, y_train)
-        # predictions = clf.predict(X_test)
+    # from sklearn.tree import DecisionTreeClassifier
+    # def multi_label_classification(X_train, X_test, y_train, y_test):
+    #     print("Multi-label classification")
+    #     # clf = OneVsRestClassifier(SVC())
+    #     # clf.fit(X_train, y_train)
+    #     # predictions = clf.predict(X_test)
 
-        clf = OneVsRestClassifier(LogisticRegression())
-        clf.fit(X_train, y_train)
-        predictions = clf.predict(X_test)
+    #     clf = OneVsRestClassifier(LogisticRegression())
+    #     clf.fit(X_train, y_train)
+    #     predictions = clf.predict(X_test)
 
 
-        # dtClassifier = DecisionTreeClassifier()
-        # dtClassifier.fit(X_train, y_train)
-        # predictions = dtClassifier.predict(X_test)
+    #     # dtClassifier = DecisionTreeClassifier()
+    #     # dtClassifier.fit(X_train, y_train)
+    #     # predictions = dtClassifier.predict(X_test)
 
-        print(f"Hamming Loss: {hamming_loss(y_test, predictions)}")
+    #     print(f"Hamming Loss: {hamming_loss(y_test, predictions)}")
 
         # Split the embeddings and labels into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(sentence_embeddings, rule_labels, test_size=0.2, random_state=42)
     print("shapes:", X_train.shape,X_test.shape,y_train.shape,y_test.shape)
 
     # User input to select the classification type
-    user_choice = input("Enter '1' for binary classification or '2' for multi-label classification: ")
+    user_choice = input("Enter '1' for binary classification")
 
     if user_choice == '1':
         # Prompt user for the specific rule to run binary classification on
@@ -162,14 +162,14 @@ def third_approach():
             binary_classification(X_train, X_test, binary_y_train, binary_y_test, rule_to_classify)
         else:
             print(f"Rule {rule_to_classify} not found in the dataset.")
-    elif user_choice == '2':
-        # For multi-label classification, we need to transform the target labels to a binary matrix
-        mlb = MultiLabelBinarizer()
-        multi_y_train = mlb.fit_transform(y_train)
-        multi_y_test = mlb.transform(y_test)
-        multi_label_classification(X_train, X_test, multi_y_train, multi_y_test)
+    # elif user_choice == '2':
+    #     # For multi-label classification, we need to transform the target labels to a binary matrix
+    #     mlb = MultiLabelBinarizer()
+    #     multi_y_train = mlb.fit_transform(y_train)
+    #     multi_y_test = mlb.transform(y_test)
+    #     multi_label_classification(X_train, X_test, multi_y_train, multi_y_test)
     else:
-        print("Invalid input. Please enter '1' for binary classification or '2' for multi-label classification.")
+        print("Invalid input. Please enter '1' for binary classification")
 
 
 
