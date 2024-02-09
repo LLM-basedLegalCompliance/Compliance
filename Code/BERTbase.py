@@ -95,12 +95,12 @@ set_seed(config.seed)
 """
 
 def load_data(filename):
-  df=pd.read_csv(filename)
+  df=pd.read_excel(filename)
 
   return df
 
 
-df = load_data('Data/output_file1000.csv')
+df = load_data('Data/merged_train_file.xlsx')
 df= shuffle(df, random_state=42)
 df['R99'].fillna(0, inplace=True)
 
