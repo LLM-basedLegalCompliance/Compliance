@@ -1,2 +1,3 @@
 # Compliance
-Contextual Insights: Revolutionizing GDPR Compliance checking: An LLM-based Approach
+Rethinking Legal Compliance Automation:
+Opportunities with Large Language Models
