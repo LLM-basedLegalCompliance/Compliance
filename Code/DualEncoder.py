@@ -8,7 +8,7 @@ from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
-df = pd.read_csv('output_file1000.csv')
+df = pd.read_csv('FilteredData.csv')
 df= shuffle(df, random_state=42)
 df['R99'].fillna(0, inplace=True)
 
