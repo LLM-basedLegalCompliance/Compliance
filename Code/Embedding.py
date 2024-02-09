@@ -17,7 +17,7 @@ from sklearn.linear_model import LogisticRegression
 model = SentenceTransformer('nlpaueb/legal-bert-base-uncased')
 
 
-df = pd.read_csv('Data/output_file1000.csv')
+df = pd.read_csv('Data/FilteredData.csv')
 df= shuffle(df, random_state=42)
 df['R99'].fillna(0, inplace=True)
 sentences = df['Sentence']
