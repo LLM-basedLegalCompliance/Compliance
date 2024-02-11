@@ -11,15 +11,15 @@ As software-intensive systems face growing pressure to comply with laws and regu
 └── Evaluation Result
 
 ```
-Execution Instructions
+###Execution Instructions
 
-Create a python environment with the packages listed in: Compliance/Code/requirement.txt 
-Open the environment and proceed to Compliance main folder Compliance/Code
+*Create a python environment with the packages listed in: Compliance/Code/requirement.txt 
+*Open the environment and proceed to Compliance main folder Compliance/Code
 
-Execute the code Call_LLM.ipynb for GPT experiments
-Execute the code Zephyr.py, Mixtral.py, or Mistral.py for open-source model experiments
+*Execute the code Call_LLM.ipynb for GPT experiments
+*Execute the code Zephyr.py, Mixtral.py, or Mistral.py for open-source model experiments
 
-For GPT experiments, set your OpenAI key in the Call_LLM.ipynb
+*For GPT experiments, set your OpenAI key in the Call_LLM.ipynb
 
-Execute the code Call_LLM.ipynb 
+*Execute the code Call_LLM.ipynb 
 
