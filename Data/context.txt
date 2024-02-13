@@ -1,0 +1,28 @@
+R1 - The DPA shall contain at least one controller's identity and contact details.
+R2 - The DPA shall contain at least one processor's identity and contact details.
+R3 - The DPA shall contain the duration of the processing.  (Art. 28(3))
+R4 - The DPA shall contain the nature and purpose of the processing. (Art. 28(3))
+R5 - The DPA shall contain the types of personal data. (Art. 28(3))
+R6 - The DPA shall contain the categories of data subjects. (Art. 28(3))
+R7 - The  organizational and technical measures to ensure a level of security can include: (a) pseudonymisation and encryption of personal data, (b) ensure confidentiality, integrity, availability and resilience of processing systems and services, (c) restore the availability and access to personal data in a timely manner in the event of a physical or technical incident, and (d) regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing. (Art. 32(1))
+R8 - The notification of personal data breach shall at least include (a) the nature of personal data breach; (b) the name and contact details of the data protection officer; (c) the consequences of the breach; (d) the measures taken or proposed to mitigate its effects. (Art. 33(3))
+R10 - The processor shall not engage a sub-processor without a prior specific or general written authorization of the controller.  (Art. 28(2))
+R11 - In case of general written authorization, the processor shall inform the controller of any intended changes concerning the addition or replacement of sub-processors. (Art. 28(2))
+R12 - The processor shall process personal data on documented instructions from the controller.  (Art. 28(3a))
+R15 - The processor shall ensure that persons authorized to process personal data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality. (Art. 28(3b))
+R16 - The processor shall take all measures required pursuant to Article 32 or to ensure the security of processing. (Art. 28(3c))
+R17 - The processor shall assist the controller in fulfilling its obligation to respond to requests for exercising the data subject's rights. (Art. 28(3e))
+R22 - The processor shall assist the controller in ensuring compliance with the obligations pursuant to data protection impact assessment (DPIA). (Art. 28(3f), Art.35)
+R23 - The processor shall return or delete all personal data to the controller after the end of the provision of services relating to processing. (Art. 28(3g))
+R24 - The processor shall immediately inform the controller if an instruction infringes the GDPR or other data protection provisions.  (Art. 28(3h))
+R25 - The processor shall make available to the controller information necessary to demonstrate compliance with the obligations Article 28 in GDPR. (Art. 28(3h))
+R26 - The processor shall allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller. (Art. 28(3h))
+R27 - The processor shall impose the same obligations referred to in Article 28(3) in GDPR on the engaged sub-processors by way of contract or other legal act under Union or Member State law. (Art. 28(4))
+R28 - The processor shall remain fully liable to the controller for the performance of sub-processor's obligations. (Art. 28(4))
+R30 - The processor shall not transfer personal data to a third country or international organization without  a prior specific or general authorization of the controller. (Art. 28(3a))
+R34 - The processor shall notify the controller without undue delay after becoming aware of a personal data breach. (Art. 33(2))
+R36 - In case of general written authorization, the controller shall have the right to object to changes concerning  the addition or replacement of sub-processors, after having been informed of such intended changes by the processor. (Art. 28(2))
+R38 - The controller shall have the right to terminate the DPA in certain cases.
+R99 - This holds only if none of the previous Ri where 1<=i<=38, are satisfied.
+
+
